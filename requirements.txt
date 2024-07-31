@@ -1,0 +1,13 @@
+catboost==0.24.4
+ipython==7.20.0
+mlxtend==0.18.0
+numpy==1.20.1
+openpyxl==3.0.6
+optuna==2.5.0
+pandas==1.2.2
+pandas-profiling==2.10.1
+plotly==4.14.3
+scikit-learn==0.24.1
+scipy==1.6.0
+seaborn==0.11.1
+sweetviz==2.0.6
