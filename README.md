@@ -10,11 +10,14 @@
 Link : https://www.drivendata.org/competitions/66/flu-shot-learning/
 
 Files:
-- Flu_analysis-pandas.ipynb : first EDA using `pandas profiling`
-- Flu_analysis-dtale_sweetwiz.ipynb : EDA using `dtale` and `SweetWiz`
+- EDA_sweetwiz.ipynb : EDA using `SweetWiz`
 - Flu_analysis-manual.ipynb : manual EDA partly reusing code from benchmark
-- Flu_CatBoost-Feature_Selection.ipynb : feature selection using `mlxtend` library
-- Flu_CatBoost-tuned-OptunaCVI.ipynb : prediction using `CatBoost` with `Optuna` for hyperparameters tuning
+- CatBoost-Feature_Selection.ipynb : feature selection using `mlxtend` library
+- CatBoost-tuned-Optuna.ipynb : prediction using `CatBoost` with `Optuna` for hyperparameters tuning
+- XGBoost.ipynb : prediction using `XGBoost` with `Optuna` for hyperparameters tuning
+- LGBM.ipynb : prediction using `LGBM`
+- RF.ipynb : prediction using `LGBM`
+
 
 The file scored 0.8608. It can be greatly improved working on it (my current score, 16/02/21, is **0.8638 ranking 7th**). This is just a starting point showing some basic techniques. Spend some time analysing the dataset using EDA notebooks.
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adalseno/Flu-Shot-Learning-Predict-H1N1-and-Seasonal-Flu-Vaccines/HEAD?filepath=Flu_CatBoost-tuned-OptunaCVI.ipynb)
